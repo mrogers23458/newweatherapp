@@ -4,9 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
     <title>Weather App</title>
 </head>
 <body>
-    App
+    <header>
+        <h1>Weather App</h1>
+    </header>
+    <div class="mainContainer">
+        <div class="searchContainer">
+            <input class="search" id="search" type="text" />
+            <label class="searchLabel" for="search">Search by city name</label>
+            <button id="searchBtn" class="btn">Search</button>
+            <div class="searrchHistoryContainer">
+                <p>Search History</p>
+            </div>
+        </div>
+        <div id="container" class="weatherContainer">
+            Weather Results
+        </div>
+    </div>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>

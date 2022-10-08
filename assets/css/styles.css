@@ -1,0 +1,29 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContainer {
+    display: flex;
+}
+
+.searchContainer {
+    display: flex;
+    flex-direction: column;
+    width: 33vw;
+    padding: 1vw;
+    border: 2px solid black;
+    justify-content: center;
+}
+
+.weatherContainer {
+    width: 66vw;
+    border: 2px solid red;
+}
